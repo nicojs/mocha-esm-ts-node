@@ -1,0 +1,21 @@
+{
+  "name": "mocha-esm-ts-node",
+  "version": "0.0.0",
+  "private": true,
+  "description": "An e2e test for mocha with esm AND ts-node",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "rimraf .stryker-tmp",
+    "test": "mocha --register esm --require ts-node test/*.js test/*.ts",
+    "test:mutation": "stryker run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stryker-mutator/core": "^5.0.1",
+    "@stryker-mutator/mocha-runner": "^5.0.1",
+    "esm": "^3.2.25",
+    "mocha": "^9.0.0",
+    "ts-node": "^10.0.0"
+  }
+}

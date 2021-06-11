@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "target": "es2019",
+    "module": "es2015"
+  }
+}
