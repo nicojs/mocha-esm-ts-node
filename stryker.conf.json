@@ -9,6 +9,6 @@
   ],
   "mochaOptions": {
     "spec": ["test/*.ts", "test/*.js"],
-    "require": ["ts-node/register/index.js"]
+    "require": ["esm", "ts-node/register"]
   }
 }

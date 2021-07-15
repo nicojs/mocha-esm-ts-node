@@ -3,7 +3,13 @@
     "allowJs": true,
     "esModuleInterop": true,
     "strict": true,
-    "target": "es2019",
-    "module": "es2015"
-  }
+    "target": "ES2019",
+    "lib": ["ESNext"],
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "isolatedModules": false
+  },
+  "include": ["**/*.spec.{js,ts}"],
+  "types": ["mocha", "node"]
 }
