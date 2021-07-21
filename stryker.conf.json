@@ -7,8 +7,9 @@
   "plugins": [
     "@stryker-mutator/mocha-runner"
   ],
+  "testRunnerNodeArgs": ["--require", "esm"],
   "mochaOptions": {
     "spec": ["test/*.ts", "test/*.js"],
-    "require": ["ts-node/register", "esm"]
+    "require": ["ts-node/register"]
   }
 }
