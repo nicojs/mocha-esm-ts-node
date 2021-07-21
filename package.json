@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "pretest": "rimraf .stryker-tmp",
-    "test": "env TS_NODE_PROJECT=\"tsconfig.json\" mocha -r esm -r ts-node/register \"test/*.{js,ts}\"",
+    "test": "env TS_NODE_PROJECT=\"tsconfig.json\" mocha -r ts-node/register -r esm \"test/*.{js,ts}\"",
     "test:mutation": "stryker run"
   },
   "author": "",

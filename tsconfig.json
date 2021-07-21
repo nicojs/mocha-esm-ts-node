@@ -5,7 +5,7 @@
     "strict": true,
     "target": "ES2019",
     "lib": ["ESNext"],
-    "module": "commonjs",
+    "module": "ESNext",
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "isolatedModules": false
